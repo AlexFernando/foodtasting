@@ -1,0 +1,30 @@
+.join-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+}
+
+.join-section .icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.join-section .icons img{
+    max-width:100%;
+    height:auto;
+}
+
+.join-section .gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.join-section .gallery img {
+    max-width:100%;
+    height:auto;
+}
