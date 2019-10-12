@@ -13,6 +13,16 @@
     align-items: stretch;
 }
 
+@media (max-width: 900px) {
+    .home-main-section .img-wrapper{
+        display: none;
+    }
+
+    .home-main-section{
+        justify-content: center;
+    }
+}
+
 .home-main-section .img-wrapper .dishes-image {
     background-image: url(/images/peruvian_food.jpg);
     flex-grow: 1;
