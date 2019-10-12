@@ -29,11 +29,13 @@ body {
 .main-header {
     display: flex;
     justify-content: flex-end;
+    text-align: center;
 }
 
 .navbar ul {
     display: flex;
     list-style: none;
+    padding: 0;
 }
 
 .navbar a {
@@ -44,6 +46,15 @@ body {
 
 .navbar a:hover {
     color: skyblue;
+}
+
+@media(max-width: 900px) {
+    .main-header {
+        justify-content: center;
+    }
+    .navbar a {
+        padding: .5rem;
+    }
 }
 
 .btn {
