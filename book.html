@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FreeFoodTasting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="book.css" />
+</head>
+
+<body class="full-height-grow container">
+    <header class="main-header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="join.html">FoodTours</a></li>
+                <li><a href="#">Details</a></li>
+                <li><a href="book.html">Book</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="book-section">
+        <div class="map-section">
+            <h1 class="meeting-text">Meeting Point<span class="emphasize-text"> ~Main Square</span></h1>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=plaza%20de%20armas%20-%20cusco&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.embedgooglemap.net/blog/best-vpn/">most effective vpn provider</a>
+                </div>
+                <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h1 class="book-text">Join the <span class="emphasize-text">tastiness.</span></h1>
+            <form class="book-form">
+                <div class="input-group">
+                    <label>Name:</label>
+                    <input type="text">
+                </div>
+                <div class="input-group">
+                    <label>Phone:</label>
+                    <input type="text">
+                </div>
+                <div class="input-group">
+                    <label>Email:</label>
+                    <input type="email">
+                </div>
+
+                <div class="option-group">
+                    <label class="main-label">Language:</label>
+                    
+                    <div class="option-1">
+                        <input type="radio"  id="english-option" name="language-option" value="English" checked>
+                        <label id="english" for="english-option">
+                            English
+                        </label>
+                    </div>
+
+                    <div class="option-2">
+                        <input type="radio"  id="spanish-option" name="language-option" value="Spanish">
+                        <label id="spanish" for="spanish-option">
+                            Spanish
+                        </label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

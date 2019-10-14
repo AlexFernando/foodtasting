@@ -1,0 +1,80 @@
+.book-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    overflow-x:hidden;
+}
+
+
+.book-section .map-section .meeting-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+
+@media(min-width: 900px) {
+    .book-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+    }
+    .book-section .map-section .meeting-text{
+        flex-direction: row;
+        font-size: 2rem;
+        justify-content: center;
+    }
+}
+
+
+.book-section .emphasize-text {
+    color: rgb(82, 80, 80);
+}
+
+.book-section .contact .book-text {
+    text-align: center;
+}
+
+.book-section .book-form {
+    background-color: rgb(224, 118, 64);
+    padding: 2rem 4rem;
+    border-radius: 20px;
+}
+
+.input-group {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.input-group input {
+    outline: none;
+    background: none;
+    border: 1px solid rgb(132, 174, 231);
+    font-size: 1.2rem;
+    padding: .5em;
+    color: inherit;
+    border-radius: 5px;
+}
+
+.option-group {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.option-group .main-label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
