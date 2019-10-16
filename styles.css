@@ -75,3 +75,45 @@ body {
 .btn:focus{
     background-color: #2180d8;
 }
+
+/*Navbar mobile*/
+.menu-mobile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #222629;
+    border-bottom: 3px solid #61892F;
+    padding: 1rem;
+    display: none;
+}
+.menu-mobile.nav-Expanded {
+    display: flex;
+}
+
+.menu-mobile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+.menu-mobile ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+    display: flex;
+    font-family: Raleway;
+}
+
+.menu-mobile ul li a {
+    color: #86C232;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;    
+}
+
+.menu-mobile ul li i{
+    color: #86C232;
+    font-size: 1.5rem;
+    margin-right: .3rem;
+}
